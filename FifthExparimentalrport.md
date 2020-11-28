@@ -23,7 +23,6 @@
 结果存储到学生基本信息所在的文本文件A中。  
 
 
-
 ## 二.实验设计
 
 1.设置学生类，并定义个性属性；  
@@ -86,6 +85,7 @@ public class Test {
 	}
 ```
 ## 四.实验结果截图 
+https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png  
 
 ## 五.实验感想  
 1.通过这次实验我主要学习了File类的使用方法；  
