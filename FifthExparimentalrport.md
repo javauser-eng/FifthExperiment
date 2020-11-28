@@ -5,7 +5,7 @@
 +2.掌握文件的读取/写入方法  
 +3.掌握异常处理结构  
 
-## 业务要求
+## 二.业务要求
 1.在某课上,学生要提交实验结果，该结果存储在一个文本文件A中。  
 2.文件A包括两部分内容：  
 一.是学生的基本信息；  
@@ -16,14 +16,14 @@
 &emsp;输入的文本来源于文本文件B读取，把处理好的结果写入到文本文件A  
 &emsp;考虑操作中可能出现的异常，在程序中设计异常处理程序  
 
-## 内容要求  
+## 三.内容要求  
 1.设计学生类（可利用之前的）；  
 2.采用交互式方式实例化某学生；  
 3.设计程序完成上述的业务逻辑处理，并且把“古诗处理后的输出”  
 结果存储到学生基本信息所在的文本文件A中。  
 
 
-## 二.实验设计
+## 四.实验设计
 
 1.设置学生类，并定义个性属性；  
 ```
@@ -47,7 +47,7 @@ public class Student {
 		  System.out.println("输入学号:");
 		  int id=scanner.nextInt();
 ```
-## 三.核心方法  
+## 五.核心方法  
 1.  
 ```
 public class Txt {
@@ -84,12 +84,12 @@ public class Test {
 		} 
 	}
 ```
-## 四.实验结果截图 
+## 六.实验结果截图 
 https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png  
 https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C2.png  
 https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C3.png  
 
-## 五.实验感想  
+## 七.实验感想  
 1.通过这次实验我主要学习了File类的使用方法；  
 2.学会了新的方法，如：Fileread，inputStream，outputStream等；  
 3.复习了Scanner类和异常处理；  
