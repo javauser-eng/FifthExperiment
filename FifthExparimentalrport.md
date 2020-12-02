@@ -47,6 +47,29 @@ public class Student {
 		  System.out.println("输入学号:");
 		  int id=scanner.nextInt();
 ```
+3.实现了统计古诗中某个字或词出现的次数；
+```
+		int len;
+		byte[] data = null;
+		byte[] buffer = new byte[(int) file.length()];
+
+		while ((len=fis.read(buffer))!=-1){
+		    bos.write(buffer,0,len);
+		}
+
+		data = bos.toByteArray();
+		String str = new String(data);
+
+		int count=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("输入你要查找的字或词：");
+		char o = sc.next().charAt(0);
+		char[] ch =str.toCharArray();
+		for(int i=0;i<ch.length;i++){
+		    if(o==ch[i]){
+		        count++;
+		    }
+```
 ## 五.核心方法  
 1.  
 ```
@@ -87,7 +110,8 @@ public class Test {
 ## 六.实验结果截图 
 https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png  
 https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C2.png  
-https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C3.png  
+https://github.com/javauser-eng/FifthExperiment/blob/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C3.png    
+https://github.com/javauser-eng/FifthExperiment/blob/main/%E5%AD%97%E7%AC%A6%E6%9F%A5%E8%AF%A2.png  
 
 ## 七.实验感想  
 1.通过这次实验我主要学习了File类的使用方法；  
